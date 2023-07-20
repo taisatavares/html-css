@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio imagens</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Testando as imagens</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto300x400.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto525x700.jpeg" type="image/jpeg">
+        <img src="imagens/foto1000x1333.jpeg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

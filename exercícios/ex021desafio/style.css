@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+header{
+    background-image: linear-gradient(to bottom, #0EDB88, #0AA869, #215C44);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header > p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+nav{
+    text-align: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0aa86981;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: justify;
+
+}
+
+div#bugdroid{
+    text-align: center;
+    background-color: white;
+}
+
+
+p{
+    padding: 10px;
+    text-indent: 25px;
+}
+body{
+    background-color: #51E1A8;
+    margin: auto;
+}
+
+h1{
+    color: #215C44;
+    padding: 10px;
+}
+
+h2{
+    color: #215C44;
+
+    
+}
+
+section{
+    background-color: #215C44;
+    text-align: center;
+    width: 735px;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+
+div{
+    background-color: #9ae6c7c2;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+div > h3{
+    background-color: #0AA869;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+
+}
+
+ul.lista1{
+    list-style: none;
+    padding-inline-start: 10px;
+    
+    
+}
+
+
+
+
+span{
+    color: black;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #215C44;
+    color: white;
+    padding: 5px;
+}
+
+
